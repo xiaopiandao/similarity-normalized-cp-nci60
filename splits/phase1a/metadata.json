@@ -1,0 +1,242 @@
+{
+  "feature_cache": {
+    "feature": "Morgan bit fingerprint",
+    "radius": 2,
+    "fp_size": 2048,
+    "rows": 25245,
+    "columns": 2048,
+    "nonzero": 1163665,
+    "density": 0.022507260874678154,
+    "rdkit_version": "2026.03.4",
+    "matrix": "data/features/cellminer/morgan_r2_2048.npz",
+    "index": "data/features/cellminer/morgan_r2_2048_index.csv"
+  },
+  "splits": {
+    "random_seed_1": {
+      "family": "random",
+      "seed": 1,
+      "counts": {
+        "fit": 17673,
+        "source_cal": 2524,
+        "valid": 2524,
+        "test": 2524
+      },
+      "source_cal_target": 2524,
+      "fit_source_cal_nsc_overlap": 0,
+      "fit_source_cal_morgan_group_overlap": 0,
+      "test_overlap_with_non_test": 0,
+      "policy": "source calibration is carved from original train while keeping identical Morgan fingerprints together"
+    },
+    "random_seed_2": {
+      "family": "random",
+      "seed": 2,
+      "counts": {
+        "fit": 17673,
+        "source_cal": 2524,
+        "valid": 2524,
+        "test": 2524
+      },
+      "source_cal_target": 2524,
+      "fit_source_cal_nsc_overlap": 0,
+      "fit_source_cal_morgan_group_overlap": 0,
+      "test_overlap_with_non_test": 0,
+      "policy": "source calibration is carved from original train while keeping identical Morgan fingerprints together"
+    },
+    "random_seed_3": {
+      "family": "random",
+      "seed": 3,
+      "counts": {
+        "fit": 17673,
+        "source_cal": 2524,
+        "valid": 2524,
+        "test": 2524
+      },
+      "source_cal_target": 2524,
+      "fit_source_cal_nsc_overlap": 0,
+      "fit_source_cal_morgan_group_overlap": 0,
+      "test_overlap_with_non_test": 0,
+      "policy": "source calibration is carved from original train while keeping identical Morgan fingerprints together"
+    },
+    "random_seed_4": {
+      "family": "random",
+      "seed": 4,
+      "counts": {
+        "fit": 17673,
+        "source_cal": 2524,
+        "valid": 2524,
+        "test": 2524
+      },
+      "source_cal_target": 2524,
+      "fit_source_cal_nsc_overlap": 0,
+      "fit_source_cal_morgan_group_overlap": 0,
+      "test_overlap_with_non_test": 0,
+      "policy": "source calibration is carved from original train while keeping identical Morgan fingerprints together"
+    },
+    "random_seed_5": {
+      "family": "random",
+      "seed": 5,
+      "counts": {
+        "fit": 17673,
+        "source_cal": 2524,
+        "valid": 2524,
+        "test": 2524
+      },
+      "source_cal_target": 2524,
+      "fit_source_cal_nsc_overlap": 0,
+      "fit_source_cal_morgan_group_overlap": 0,
+      "test_overlap_with_non_test": 0,
+      "policy": "source calibration is carved from original train while keeping identical Morgan fingerprints together"
+    },
+    "scaffold_seed_1": {
+      "family": "scaffold",
+      "seed": 1,
+      "counts": {
+        "fit": 17673,
+        "source_cal": 2524,
+        "valid": 2524,
+        "test": 2524
+      },
+      "source_cal_target": 2524,
+      "fit_source_cal_nsc_overlap": 0,
+      "fit_source_cal_morgan_group_overlap": 0,
+      "test_overlap_with_non_test": 0,
+      "policy": "source calibration is carved from original train while keeping identical Morgan fingerprints together"
+    },
+    "scaffold_seed_2": {
+      "family": "scaffold",
+      "seed": 2,
+      "counts": {
+        "fit": 17673,
+        "source_cal": 2524,
+        "valid": 2524,
+        "test": 2524
+      },
+      "source_cal_target": 2524,
+      "fit_source_cal_nsc_overlap": 0,
+      "fit_source_cal_morgan_group_overlap": 0,
+      "test_overlap_with_non_test": 0,
+      "policy": "source calibration is carved from original train while keeping identical Morgan fingerprints together"
+    },
+    "scaffold_seed_3": {
+      "family": "scaffold",
+      "seed": 3,
+      "counts": {
+        "fit": 17673,
+        "source_cal": 2524,
+        "valid": 2524,
+        "test": 2524
+      },
+      "source_cal_target": 2524,
+      "fit_source_cal_nsc_overlap": 0,
+      "fit_source_cal_morgan_group_overlap": 0,
+      "test_overlap_with_non_test": 0,
+      "policy": "source calibration is carved from original train while keeping identical Morgan fingerprints together"
+    },
+    "scaffold_seed_4": {
+      "family": "scaffold",
+      "seed": 4,
+      "counts": {
+        "fit": 17673,
+        "source_cal": 2524,
+        "valid": 2524,
+        "test": 2524
+      },
+      "source_cal_target": 2524,
+      "fit_source_cal_nsc_overlap": 0,
+      "fit_source_cal_morgan_group_overlap": 0,
+      "test_overlap_with_non_test": 0,
+      "policy": "source calibration is carved from original train while keeping identical Morgan fingerprints together"
+    },
+    "scaffold_seed_5": {
+      "family": "scaffold",
+      "seed": 5,
+      "counts": {
+        "fit": 17673,
+        "source_cal": 2524,
+        "valid": 2524,
+        "test": 2524
+      },
+      "source_cal_target": 2524,
+      "fit_source_cal_nsc_overlap": 0,
+      "fit_source_cal_morgan_group_overlap": 0,
+      "test_overlap_with_non_test": 0,
+      "policy": "source calibration is carved from original train while keeping identical Morgan fingerprints together"
+    },
+    "leader_cluster_seed_1": {
+      "family": "leader_cluster",
+      "seed": 1,
+      "counts": {
+        "fit": 17673,
+        "source_cal": 2524,
+        "valid": 2524,
+        "test": 2524
+      },
+      "source_cal_target": 2524,
+      "fit_source_cal_nsc_overlap": 0,
+      "fit_source_cal_morgan_group_overlap": 0,
+      "test_overlap_with_non_test": 0,
+      "policy": "source calibration is carved from original train while keeping identical Morgan fingerprints together"
+    },
+    "leader_cluster_seed_2": {
+      "family": "leader_cluster",
+      "seed": 2,
+      "counts": {
+        "fit": 17673,
+        "source_cal": 2524,
+        "valid": 2524,
+        "test": 2524
+      },
+      "source_cal_target": 2524,
+      "fit_source_cal_nsc_overlap": 0,
+      "fit_source_cal_morgan_group_overlap": 0,
+      "test_overlap_with_non_test": 0,
+      "policy": "source calibration is carved from original train while keeping identical Morgan fingerprints together"
+    },
+    "leader_cluster_seed_3": {
+      "family": "leader_cluster",
+      "seed": 3,
+      "counts": {
+        "fit": 17673,
+        "source_cal": 2524,
+        "valid": 2524,
+        "test": 2524
+      },
+      "source_cal_target": 2524,
+      "fit_source_cal_nsc_overlap": 0,
+      "fit_source_cal_morgan_group_overlap": 0,
+      "test_overlap_with_non_test": 0,
+      "policy": "source calibration is carved from original train while keeping identical Morgan fingerprints together"
+    },
+    "leader_cluster_seed_4": {
+      "family": "leader_cluster",
+      "seed": 4,
+      "counts": {
+        "fit": 17673,
+        "source_cal": 2524,
+        "valid": 2524,
+        "test": 2524
+      },
+      "source_cal_target": 2524,
+      "fit_source_cal_nsc_overlap": 0,
+      "fit_source_cal_morgan_group_overlap": 0,
+      "test_overlap_with_non_test": 0,
+      "policy": "source calibration is carved from original train while keeping identical Morgan fingerprints together"
+    },
+    "leader_cluster_seed_5": {
+      "family": "leader_cluster",
+      "seed": 5,
+      "counts": {
+        "fit": 17673,
+        "source_cal": 2524,
+        "valid": 2524,
+        "test": 2524
+      },
+      "source_cal_target": 2524,
+      "fit_source_cal_nsc_overlap": 0,
+      "fit_source_cal_morgan_group_overlap": 0,
+      "test_overlap_with_non_test": 0,
+      "policy": "source calibration is carved from original train while keeping identical Morgan fingerprints together"
+    }
+  },
+  "transductive_policy": "test structures may be used only for density-ratio estimation; test labels stay locked"
+}

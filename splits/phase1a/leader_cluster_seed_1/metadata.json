@@ -1,0 +1,15 @@
+{
+  "family": "leader_cluster",
+  "seed": 1,
+  "counts": {
+    "fit": 17673,
+    "source_cal": 2524,
+    "valid": 2524,
+    "test": 2524
+  },
+  "source_cal_target": 2524,
+  "fit_source_cal_nsc_overlap": 0,
+  "fit_source_cal_morgan_group_overlap": 0,
+  "test_overlap_with_non_test": 0,
+  "policy": "source calibration is carved from original train while keeping identical Morgan fingerprints together"
+}
